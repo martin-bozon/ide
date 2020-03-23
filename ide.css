@@ -1,0 +1,136 @@
+@font-face
+    {
+        font-family: "Forced-square";
+        src: url("police/FORCED SQUARE.ttf");
+    }
+html
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        font-family: "Forced-square", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+body
+    {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin: 0;
+    }
+header
+    {
+        display: flex;
+        height: 10vh;
+        background-image:radial-gradient(white, green);
+        font-size: 30px;
+        border-bottom: 2px double black;
+    }
+nav
+    {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+header nav a 
+    {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 10px;
+        border: 2px double rgba(0, 0, 0, 0);
+    }
+header nav a:hover
+    {
+        color: white;
+        background-color: green;
+        border-radius: 10px;
+        border: 2px double black;
+    }
+nav a
+    {
+        text-decoration: none;
+        color: black;
+    }
+p
+    {
+        margin: 0;
+    }
+main
+    {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+section     
+    {
+        background-color: rgb(165, 164, 164);
+    }
+h1
+    {
+        font-size: 40px;
+        margin-bottom: 3vh;
+    }
+hr
+    {
+        display: flex;
+        align-self: center;
+        width: 50vw;
+    }
+main p  
+    {
+        font-size: 25px;
+        padding-top: 3vh;
+    }
+#IDE
+    {
+        text-align: center;
+        padding-bottom: 5vh;
+    }
+#image
+    {
+        display: flex;
+        justify-content: center;
+        background-image:radial-gradient(white, green);
+    }
+#imageide
+    {
+        display: flex;
+        align-self: stretch;
+        border-radius: 10px;
+        width: 85vw;
+    }
+footer
+    {
+        display: flex;
+        flex-grow: 0.2;
+        background-image:radial-gradient(white, green);
+        font-size: 20px;
+        border-top: 2px double black;
+    }
+footer a
+    {
+        display: flex;
+        align-items: center;
+    }
+footer a:hover
+    {
+        color: white;
+    }
+#git
+    {
+        display: flex;
+        align-items: center;
+    }
+footer a #logoblanc
+    {
+        display: none;
+    }    
+footer a:hover #logoblanc
+    {
+        display: block
+    }
+footer a:hover #logonoir
+    {
+        display: none;
+    }
