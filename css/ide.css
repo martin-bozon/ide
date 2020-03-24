@@ -21,7 +21,7 @@ header
     {
         display: flex;
         height: 10vh;
-        background-image:radial-gradient(white, green);
+        background-image:radial-gradient(rgb(165, 164, 164), green);
         font-size: 30px;
         border-bottom: 2px double black;
     }
@@ -55,6 +55,7 @@ nav a
 p
     {
         margin: 0;
+        font-size: 30px;
     }
 main
     {
@@ -68,16 +69,16 @@ section
     }
 main p  
     {
-        font-size: 25px;
         padding-top: 3vh;
     }
 /*  Partie 1 */
-#IDE
+.IDE
     {
         text-align: center;
         padding-bottom: 5vh;
+        background: linear-gradient(rgb(165, 164, 164), green);
     }
-#IDE h1
+.IDE h1
     {
         font-size: 40px;
         margin-bottom: 3vh;
@@ -92,13 +93,13 @@ hr
     {
         display: flex;
         justify-content: center;
-        background-image:radial-gradient(white, green);
+        background-image:linear-gradient( green,rgb(165, 164, 164));
     }
 #imageide
     {
         display: flex;
         align-self: stretch;
-        border-radius: 10px;
+        border-radius: 15px;
         width: 85vw;
     }
 /*  Partie 2 */
@@ -108,6 +109,7 @@ hr
         flex-grow: 1;
         flex-basis: auto;
         justify-content: space-between;
+        background: linear-gradient(green,rgb(165, 164, 164));
     }
 #comparaison
     {
@@ -116,16 +118,24 @@ hr
         flex-basis: 80%;
         justify-content: space-evenly;
         text-align: center;
+        background: linear-gradient(green,rgb(165, 164, 164));
     }
 #comparaison section
     {
         display: flex;
         flex-direction: column;
         flex-basis: 25%;
-        padding-right: 3vw;
-        border-right: 1px solid black;
+        padding-right: 1.5vw;
+        padding-left: 1.5vw;
+        border: 1px solid black;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        box-shadow: 3px 3px 0px white;
         margin-bottom: 5vh;
         margin-top: 5vh;
+        background-color: ;
     }
 #comparaison h1
     {
@@ -141,17 +151,33 @@ aside
         justify-content: space-evenly;
         align-items: center;
     }
+aside p
+    {
+        text-decoration: underline;
+        color: white;
+    }
 aside a 
     {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         text-decoration: none;
         color: black;
+    }
+aside a:hover
+    {
+        color: rgb(255, 255, 255);
+    }
+.logo
+    {
+        width: 50px;
     }
 footer
     {
         display: flex;
         flex-grow: 0.2;
-        background-image:radial-gradient(white, green);
+        background-image:radial-gradient(rgb(165, 164, 164), green);
         font-size: 20px;
         border-top: 2px double black;
     }
