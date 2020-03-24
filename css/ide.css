@@ -137,7 +137,6 @@ hr
         box-shadow: 3px 3px 0px white;
         margin-bottom: 5vh;
         margin-top: 5vh;
-        background-color: ;
     }
 #comparaison h1
     {
@@ -180,7 +179,7 @@ Footer */
 footer
     {
         display: flex;
-        flex-grow: 0.2;
+        height: 10vh;
         background-image:radial-gradient(rgb(165, 164, 164), rgb(9, 117, 9));
         font-size: 20px;
         border-top: 2px double black;
@@ -189,10 +188,17 @@ footer a
     {
         display: flex;
         align-items: center;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 5px;
     }
 footer a:hover
     {
         color: white;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 5px;
+        background-color: rgb(9, 117, 9);
     }
 #git
     {
@@ -210,4 +216,8 @@ footer a:hover #logoblanc
 footer a:hover #logonoir
     {
         display: none;
+    }
+footer p
+    {
+        font-size: 15px;
     }

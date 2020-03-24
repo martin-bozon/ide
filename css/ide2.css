@@ -18,6 +18,11 @@ nav a
     {
         text-decoration: none;
     }
+p   
+    { 
+        margin:0;
+        font-size: 15px;
+    }
 /* Header */
 header
     {
@@ -53,7 +58,7 @@ header nav a:hover
 footer
     { 
         display: flex;
-        flex-grow: 0.2;
+        height: 10vh;
         justify-content: space-between;
         background-color: rgb(238, 238, 238);
         font-size: 25px;
@@ -61,10 +66,17 @@ footer
 footer nav a
     {
         color: black;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 40px;
     }
 footer nav a:hover  
     {
         color: #A9C8C8;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 40px;
+        background-color: rgb(75, 75, 75);
     }
 #twitter
     {

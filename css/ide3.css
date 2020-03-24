@@ -18,6 +18,11 @@ nav a
     {
         text-decoration: none;
     }
+p   
+    { 
+        margin:0;
+        font-size: 15px;
+    }
 /* Header */
 header
     {
@@ -62,7 +67,7 @@ header nav a:hover
 footer
     { 
         display: flex;
-        flex-grow: 0.2;
+        height: 10vh;
         justify-content: space-between;
         background-color: rgb(238, 238, 238);
         font-size: 25px;
@@ -70,10 +75,23 @@ footer
 footer nav a
     {
         color: black;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
     } 
 footer nav a:hover  
     {
-        color: #A9C8C8;
+        color: white;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background-color: #2C2C32;
     }
 #twitter
     {
