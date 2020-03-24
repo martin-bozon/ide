@@ -11,6 +11,8 @@ main
         display: flex;
         flex-direction: column;
         color: rgb(239, 234, 225) ;
+        margin-left: 2vw;
+        margin-right: 2vw;
     }
 nav
     {
@@ -94,11 +96,17 @@ header nav a:hover
     {
         width: 8vw;
     }
+#atom
+    {
+        display: flex;
+        flex-direction: column;
+    }
 #image
     {
         display: flex;
         justify-content: center;
-        margin: 10vh;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
     }
 #impecran
     {
@@ -135,6 +143,61 @@ header nav a:hover
         margin-top: 1vh;
         margin-bottom: 1vh;
         font-size: 20px;
+    }
+#description hr
+    {
+        margin-top: 10vh;
+    }
+#fonctionalites
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+#fonctionalites h1
+    {
+        font-size: 35px;
+    }
+#fonction
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        margin-top: 2vh;
+        margin-bottom: 10vh;
+    }
+#fonction h1
+    {
+        margin:0;
+    }
+#fonction h2
+    {
+        font-size: 30px;
+    }
+#fonction p
+    {
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        font-size: 20px;
+    }
+#fonction section
+    {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+        flex-grow: 0.2;
+        justify-content: space-evenly;
+        border: 1px solid white;
+        border-radius: 15px;
+        padding-bottom: 2vh;
+        background-color: #66595c;
+    }
+#last
+    {
+        margin-top: 3vh;
     }
 #autre
     {
