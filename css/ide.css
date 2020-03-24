@@ -1,7 +1,7 @@
 @font-face
     {
         font-family: "Forced-square";
-        src: url("police/FORCED SQUARE.ttf");
+        src: url("../police/FORCED SQUARE.ttf");
     }
 html
     {
@@ -17,13 +17,10 @@ body
         flex-grow: 1;
         margin: 0;
     }
-header
+p
     {
-        display: flex;
-        height: 10vh;
-        background-image:radial-gradient(rgb(165, 164, 164), green);
+        margin: 0;
         font-size: 30px;
-        border-bottom: 2px double black;
     }
 nav
     {
@@ -33,18 +30,27 @@ nav
         justify-content: space-evenly;
         align-items: center;
     }
+/* Header */
+header
+    {
+        display: flex;
+        height: 10vh;
+        background-image:radial-gradient(rgb(165, 164, 164), rgb(9, 117, 9));
+        font-size: 30px;
+        border-bottom: 2px double black;
+    }
 header nav a 
     {
         padding-left: 1vw;
         padding-right: 1vw;
-        border-radius: 10px;
+        border-radius: 5px;
         border: 2px double rgba(0, 0, 0, 0);
     }
 header nav a:hover
     {
         color: white;
-        background-color: green;
-        border-radius: 10px;
+        background-color: rgb(9, 117, 9);
+        border-radius: 5px;
         border: 2px double black;
     }
 nav a
@@ -52,11 +58,7 @@ nav a
         text-decoration: none;
         color: black;
     }
-p
-    {
-        margin: 0;
-        font-size: 30px;
-    }
+/*  Main */
 main
     {
         display: flex;
@@ -76,7 +78,7 @@ main p
     {
         text-align: center;
         padding-bottom: 5vh;
-        background: linear-gradient(rgb(165, 164, 164), green);
+        background: linear-gradient(rgb(165, 164, 164), 60%, rgb(9, 117, 9));
     }
 .IDE h1
     {
@@ -93,7 +95,7 @@ hr
     {
         display: flex;
         justify-content: center;
-        background-image:linear-gradient( green,rgb(165, 164, 164));
+        background-image:linear-gradient( rgb(9, 117, 9), 40%,rgb(165, 164, 164));
     }
 #imageide
     {
@@ -109,7 +111,7 @@ hr
         flex-grow: 1;
         flex-basis: auto;
         justify-content: space-between;
-        background: linear-gradient(green,rgb(165, 164, 164));
+        background: linear-gradient(rgb(9, 117, 9), 40%,rgb(165, 164, 164));
     }
 #comparaison
     {
@@ -118,7 +120,7 @@ hr
         flex-basis: 80%;
         justify-content: space-evenly;
         text-align: center;
-        background: linear-gradient(green,rgb(165, 164, 164));
+        background: linear-gradient(rgb(9, 117, 9), 40%,rgb(165, 164, 164));
     }
 #comparaison section
     {
@@ -173,11 +175,13 @@ aside a:hover
     {
         width: 50px;
     }
+/* 
+Footer */
 footer
     {
         display: flex;
         flex-grow: 0.2;
-        background-image:radial-gradient(rgb(165, 164, 164), green);
+        background-image:radial-gradient(rgb(165, 164, 164), rgb(9, 117, 9));
         font-size: 20px;
         border-top: 2px double black;
     }
