@@ -5,6 +5,7 @@ body
         flex-grow: 1;
         background-color: rgb(52, 50, 51);
         margin: 0;
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
     }
 main
     {
@@ -148,13 +149,13 @@ header nav a:hover
     {
         margin-top: 10vh;
     }
-#fonctionalites
+#fonctionnalites
     {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-#fonctionalites h1
+#fonctionnalites h1
     {
         font-size: 35px;
     }
@@ -224,7 +225,7 @@ header nav a:hover
     {
         font-size: 25px;
     }
-#telechargement
+#button
     {
         margin-right: 5vw;
         padding: 1vh;
@@ -232,13 +233,13 @@ header nav a:hover
         border-radius: 15px;
         background-color: blue;
     }
-#telechargement a
+#button a
     {
         text-decoration: none;
         font-size: 20px;
         color: rgb(239, 234, 225);
     }
-#telechargement:hover
+#button:hover
     {
         background-color: black;
     }
