@@ -218,6 +218,7 @@ li
     }
 #button
     {
+        width: 15vw;
         padding: 1vh;
         border: 1px solid white;
         border-radius: 15px;
@@ -225,6 +226,9 @@ li
     }
 #button a
     {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
         text-decoration: none;
         font-size: 20px;
         color: rgb(238, 238, 238);
@@ -234,6 +238,7 @@ li
         background-color: rgb(238, 238, 238);
         border: 1px solid rgb(75, 75, 75);
         border-radius: 15px;
+        color: rgb(75, 75, 75) ;
     }
 #button a:hover
     {
