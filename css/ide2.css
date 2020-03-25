@@ -132,6 +132,10 @@ main
         text-align: center;
         flex-basis: 40%;
     }
+#description h1
+    {
+        color: rgb(75, 75, 75);
+    }
 #autre
     {
         display: flex;
@@ -144,6 +148,7 @@ main
         font-size: 35px;
         text-decoration: underline;
         margin-bottom: 5vh;
+        color: rgb(75, 75, 75);
     }
 #fonction
     {
@@ -151,6 +156,10 @@ main
         flex-direction: column;
         margin-bottom: 10vh;
         margin-top: 5vh;
+    }
+#fonction h1
+    {
+        color: rgb(75, 75, 75);
     }
 #fonctionnalites
     {
@@ -220,7 +229,6 @@ li
     {
         width: 15vw;
         padding: 1vh;
-        border: 1px solid white;
         border-radius: 15px;
         background-color: rgb(75, 75, 75);
     }
@@ -236,7 +244,6 @@ li
 #button:hover
     {
         background-color: rgb(238, 238, 238);
-        border: 1px solid rgb(75, 75, 75);
         border-radius: 15px;
         color: rgb(75, 75, 75) ;
     }
