@@ -134,7 +134,7 @@ hr
         border-bottom-right-radius: 15px;
         border-top-right-radius: 40px;
         border-bottom-left-radius: 40px;
-        box-shadow: 3px 3px 0px white;
+        box-shadow: 3px 3px 0px rgb(75, 75, 75);
         margin-bottom: 5vh;
         margin-top: 5vh;
     }
@@ -198,7 +198,7 @@ footer a:hover
         padding-left: 1vw;
         padding-right: 1vw;
         border-radius: 5px;
-        background-color: rgb(9, 117, 9);
+        background-color: rgb(158, 147, 82);
     }
 #git
     {

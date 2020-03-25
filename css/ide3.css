@@ -3,6 +3,17 @@
         font-family: "timeless";
         src: url("../police/Timeless.ttf");
     }
+@keyframes slide
+    {
+        0%, 25%, 100%
+            {
+                transform: translateX(0);
+            }
+        50%, 75%
+            {
+                transform: translateX(-50vw);
+            }
+    }
 body
     {
         display: flex;
@@ -32,6 +43,8 @@ p
     { 
         margin:0;
         font-size: 20px;
+        text-align: justify;
+        color: #2C2C32;
     }
 h2  
     {
@@ -97,7 +110,7 @@ header nav a:hover
         display: flex;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(#2C2C32, 30%,rgb(238, 238, 238));
+        background: linear-gradient(white,20%,rgb(238, 238, 238));
     }
 #titre h1
     {
@@ -118,7 +131,7 @@ header nav a:hover
 #VSCODE
     {
         display: flex;
-        flex-grow: 3;
+        width: 100%;
         flex-direction: column;
         margin-left: 5vw;
         margin-right: 5vw;
@@ -129,7 +142,15 @@ header nav a:hover
         flex-direction: column;
         flex-grow: 4;
         align-items: center;
-        text-align:justify;
+        justify-content: space-evenly;
+        padding: 2vw;
+        border: 1px solid #2C2C32;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        background:linear-gradient(white, 40%, rgb(238, 238, 238));
+        box-shadow: 3px 3px 0px #2C2C32;
     }
 #description h1
     {
@@ -139,6 +160,7 @@ header nav a:hover
 #telechargement
     {
         display: flex;
+        flex-direction: column-reverse;
         flex-grow: 3;
         justify-content: center;
         align-items: center;
@@ -168,7 +190,7 @@ header nav a:hover
     {
         display: flex;
         flex-direction: column;
-        flex-grow: 5;
+        flex-grow: 8;
     }
 #autre h1
     {
@@ -186,22 +208,36 @@ header nav a:hover
         font-size: 25px;
         color: #2C2C32;
     }
+#slider
+    {
+        width: 50vw;
+        overflow:hidden;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        box-shadow: 6px 6px 0px #0071BC;
+    }
 #image
     {
         display: flex;
         flex-grow: 5;
         flex-direction: row;
+        animation:slide 10s  infinite;
     }
 .impecran
     {
-        margin: 1vw;
-        width: 30vw;
-        height: 50vh;
+        width: 50vw;
+        height: 70vh;
         filter: brightness(60%);
     }
 .impecran:hover
     {
         filter: none;
+    }
+#image:hover
+    {
+        animation-play-state: paused;
     }
 #fonction
     {
@@ -262,6 +298,13 @@ footer nav a:hover
         border-top-right-radius: 30px;
         border-bottom-left-radius: 30px;
         background-color: #2C2C32;
+    }
+#logovsfooter
+    {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 1vh;
+        height: 5vh;
     }
 #twitter
     {

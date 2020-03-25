@@ -221,6 +221,7 @@ li
 #telechargement
     {
         display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         margin-top: 10vh;
@@ -274,6 +275,13 @@ footer nav a:hover
         padding-right: 1vw;
         border-radius: 40px;
         background-color: rgb(75, 75, 75);
+    }
+#logosublime2
+    {
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 1vh;
+        height: 5vh;
     }
 #twitter
     {
