@@ -35,7 +35,7 @@ header
     {
         display: flex;
         height: 10vh;
-        background-image:radial-gradient(rgb(165, 164, 164), rgb(158, 147, 82));
+        background-image:radial-gradient(#FFFFFF, #353535);
         font-size: 30px;
         border-bottom: 2px double black;
     }
@@ -49,7 +49,7 @@ header nav a
 header nav a:hover
     {
         color: white;
-        background-color: rgb(158, 147, 82);
+        background-color: #353535;
         border-radius: 5px;
         border: 2px double black;
     }
@@ -67,7 +67,7 @@ main
     }
 section     
     {
-        background-color: rgb(165, 164, 164);
+        background-color: #FFFFFF;
     }
 main p  
     {
@@ -78,7 +78,7 @@ main p
     {
         text-align: center;
         padding-bottom: 5vh;
-        background: linear-gradient(rgb(165, 164, 164), 60%, rgb(158, 147, 82));
+        background: linear-gradient(#FFFFFF, 60%, #353535);
     }
 .IDE h1
     {
@@ -95,7 +95,7 @@ hr
     {
         display: flex;
         justify-content: center;
-        background-image:linear-gradient( rgb(158, 147, 82), 40%,rgb(165, 164, 164));
+        background-image:linear-gradient( #353535, 40%,#FFFFFF);
     }
 #imageide
     {
@@ -111,7 +111,7 @@ hr
         flex-grow: 1;
         flex-basis: auto;
         justify-content: space-between;
-        background: linear-gradient(rgb(158, 147, 82), 40%,rgb(165, 164, 164));
+        background: linear-gradient(#353535, 40%,#FFFFFF);
     }
 #comparaison
     {
@@ -120,7 +120,7 @@ hr
         flex-basis: 80%;
         justify-content: space-evenly;
         text-align: center;
-        background: linear-gradient(rgb(158, 147, 82), 40%,rgb(165, 164, 164));
+        background: linear-gradient(#353535, 40%,#FFFFFF);
     }
 #comparaison section
     {
@@ -180,7 +180,7 @@ footer
     {
         display: flex;
         height: 10vh;
-        background-image:radial-gradient(rgb(165, 164, 164), rgb(158, 147, 82));
+        background-image:radial-gradient(#FFFFFF, #353535);
         font-size: 20px;
         border-top: 2px double black;
     }
@@ -198,7 +198,7 @@ footer a:hover
         padding-left: 1vw;
         padding-right: 1vw;
         border-radius: 5px;
-        background-color: rgb(158, 147, 82);
+        background-color: #353535;
     }
 #git
     {
